@@ -1,10 +1,10 @@
 import logging
 import os
+import sys
 import time
 
 import requests
 import telegram
-import sys
 from dotenv import load_dotenv
 from json import JSONDecodeError
 
@@ -27,7 +27,6 @@ def parse_homework_status(homework):
         homework_name = homework['homework_name']
     except KeyError:
         logging.exception(msg='Ключа "homework_name" не найдено.')
-        sys.exit()
     except Exception:
         logging.exception(msg='Что-то пошло не так как надо.')
     try:
@@ -75,9 +74,8 @@ def send_message(message, bot_client):
 
 
 def main():
-    # проинициализировать бота здесь
     bot_client = telegram.Bot(token=TELEGRAM_TOKEN)
-    current_timestamp = int(time.time())  # начальное значение timestamp
+    current_timestamp = int(time.time())
 
     while True:
         try:
@@ -86,8 +84,8 @@ def main():
                 send_message(parse_homework_status(
                     new_homework.get('homeworks')[0]), bot_client)
             current_timestamp = new_homework.get(
-                'current_date', int(time.time()))  # обновить timestamp
-            time.sleep(BOT_TIMEOUT)  # опрашивать раз в пять минут
+                'current_date', int(time.time()))
+            time.sleep(BOT_TIMEOUT)
 
         except Exception as e:
             logging.exception(msg=f'Бот столкнулся с ошибкой: {e}')
