@@ -25,15 +25,13 @@ BOT_TIMEOUT = 300
 def parse_homework_status(homework):
     try:
         homework_name = homework['homework_name']
+        status = homework['status']
     except KeyError:
-        logging.exception(msg='Ключа "homework_name" не найдено.')
+        logging.exception(
+            msg='Ключа "homework_name" либо "status" не найдено.')
+        return None
     except Exception:
         logging.exception(msg='Что-то пошло не так как надо.')
-    try:
-        homework['status']
-    except KeyError:
-        logging.exception(msg='Ключа "status" не найдено')
-        sys.exit()
     if homework['status'] == 'rejected':
         verdict = 'К сожалению в работе нашлись ошибки.'
     elif homework['status'] == 'approved':
