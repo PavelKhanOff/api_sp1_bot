@@ -1,0 +1,527 @@
+2021-02-08 14:22:58,386, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:22:58,386, DEBUG, Starting new HTTPS connection (1): api.telegram.org, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:22:58,707, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:22:58,707, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:23:04,113, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:23:04,217, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:23:04,217, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:23:09,599, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:23:09,701, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:23:09,702, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:23:15,121, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:23:15,223, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:23:15,224, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:23:20,598, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:23:20,701, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:23:20,701, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:23:26,180, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:23:26,284, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:23:26,284, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:23:31,704, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:23:31,806, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:23:31,806, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:23:37,189, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:23:37,291, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:23:37,291, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:23:42,677, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:23:42,784, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:23:42,784, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:23:48,284, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:23:48,386, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:23:48,386, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:00,452, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:00,452, DEBUG, Starting new HTTPS connection (1): api.telegram.org, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:00,795, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:00,795, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:06,194, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:06,301, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:06,301, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:11,694, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:11,802, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:11,802, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:17,211, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:17,327, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:17,327, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:22,726, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:22,835, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:22,835, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:28,261, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:28,372, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:28,373, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:33,764, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:33,870, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:33,871, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:39,253, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:39,360, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:39,360, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:44,757, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:44,864, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:44,865, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:50,290, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:50,400, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:50,400, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:24:55,795, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:24:55,903, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:24:55,903, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:25:01,336, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:25:01,443, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:25:01,443, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:25:06,937, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:25:07,044, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:25:07,045, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:25:12,411, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:25:12,523, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:25:12,523, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:25:17,892, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:25:18,003, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:25:18,003, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:25:23,447, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:25:23,555, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 400 73, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:25:23,555, ERROR, Бот столкнулся с ошибкой: Chat not found, root
+Traceback (most recent call last):
+  File "homework.py", line 82, in main
+    send_message(parse_homework_status(
+  File "homework.py", line 71, in send_message
+    return bot_client.send_message(CHAT_ID, message)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 70, in decorator
+    result = func(*args, **kwargs)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 349, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\bot.py", line 178, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\DEV\api_sp1_bot\venv\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Chat not found
+2021-02-08 14:27:40,281, DEBUG, Entering: send_message, telegram.bot
+2021-02-08 14:27:40,281, DEBUG, Starting new HTTPS connection (1): api.telegram.org, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:27:40,650, DEBUG, https://api.telegram.org:443 "POST /bot1617591294:AAG99e46gJSPS5AFHS2cPhkM-XBFxZVPA7o/sendMessage HTTP/1.1" 200 754, telegram.vendor.ptb_urllib3.urllib3.connectionpool
+2021-02-08 14:27:40,650, DEBUG, {'message_id': 17, 'date': 1612772862, 'chat': {'id': 415529325, 'type': 'private', 'username': 'PavelKhan', 'first_name': 'Pavel', 'last_name': 'Khan'}, 'text': 'У вас проверили работу "PavelKhanOff__api_sp1_bot.zip"!\n\nРевьюеру всё понравилось, можно приступать к следующему уроку.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1617591294, 'first_name': 'PashaNeProstit', 'is_bot': True, 'username': 'PashaNeProstitsbot'}}, telegram.bot
+2021-02-08 14:27:40,650, DEBUG, Exiting: send_message, telegram.bot

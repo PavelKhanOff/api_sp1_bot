@@ -17,7 +17,7 @@ logging.basicConfig(
 PRAKTIKUM_URL = 'https://praktikum.yandex.ru/api/user_api/homework_statuses/'
 PRAKTIKUM_TOKEN = os.getenv('PRAKTIKUM_TOKEN')
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
-CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
+CHAT_ID = os.getenv('CHAT_ID')
 TIMEOUT = 5
 BOT_TIMEOUT = 300
 
@@ -73,7 +73,7 @@ def send_message(message, bot_client):
 
 def main():
     bot_client = telegram.Bot(token=TELEGRAM_TOKEN)
-    current_timestamp = int(time.time())
+    current_timestamp = 0
 
     while True:
         try:
